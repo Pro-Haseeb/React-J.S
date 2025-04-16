@@ -1,0 +1,98 @@
+.buttons {
+    position: relative;
+    top: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* Basket styling */
+  .basket {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f4f4f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth opacity and transform transition */
+    opacity: 0; /* Start invisible */
+    transform: translateY(-20px); /* Start slightly above */
+  }
+  
+  /* Animation for showing the basket */
+  .basket.show {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* End at original position */
+  }
+  
+  /* Animation for hiding the basket */
+  .basket.hide {
+    opacity: 0; /* Invisible */
+    transform: translateY(-20px); /* Slide up out of view */
+  }
+  
+  /* Animation for adding a product */
+  .basket.animation {
+    animation: bounce 0.5s ease-in-out; /* Bounce animation */
+  }
+  
+  /* Animation for toggling the list */
+  .basket.toggle-animation {
+    animation: slide 0.5s ease-in-out; /* Slide animation */
+  }
+  
+  /* Bounce animation keyframes */
+  @keyframes bounce {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  /* Slide animation keyframes */
+  @keyframes slide {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    top: 20vh;
+  }
+  .basket{
+    width: 30vw;
+    height: 30vh;
+    background-color: black;
+  
+  }
+  .subContainer{
+    
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+  }
+  ul{
+    font-size: 20px;
+    font-weight: 700;
+    color: white ;
+  }
+  h2{
+    color: blue;
+  }

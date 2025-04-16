@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "3d46c5c7-2a58-4a1a-93d4-45ad5621d59a",
+		"name": "test-user-apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39626055"
+	},
+	"item": [
+		{
+			"name": "get-user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://comfort-kicks-admin-be.vercel.app/api/admin/test/673070fbef176cdd61247327",
+					"protocol": "https",
+					"host": [
+						"comfort-kicks-admin-be",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"admin",
+						"test",
+						"673070fbef176cdd61247327"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-user",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Rizwan Siddique\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://comfort-kicks-admin-be.vercel.app/api/admin/test/673070beef176cdd61247323",
+					"protocol": "https",
+					"host": [
+						"comfort-kicks-admin-be",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"admin",
+						"test",
+						"673070beef176cdd61247323"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-user",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Rizwan Siddique\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://comfort-kicks-admin-be.vercel.app/api/admin/test/673070fbef176cdd61247327",
+					"protocol": "https",
+					"host": [
+						"comfort-kicks-admin-be",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"admin",
+						"test",
+						"673070fbef176cdd61247327"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create-user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"abdullah@gmail.com\",\r\n    \"name\" : \"Abdullah\",\r\n    \"password\" : \"Test1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://comfort-kicks-admin-be.vercel.app/api/admin/test",
+					"protocol": "https",
+					"host": [
+						"comfort-kicks-admin-be",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"admin",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-all-user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://comfort-kicks-admin-be.vercel.app/api/admin/test",
+					"protocol": "https",
+					"host": [
+						"comfort-kicks-admin-be",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"admin",
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

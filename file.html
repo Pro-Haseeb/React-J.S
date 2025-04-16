@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Input Values</title>
+</head>
+<body>
+  <label for="inputValue">Enter Value:</label>
+  <input type="text" id="inputValue" placeholder="Type something">
+
+  <button id="updateButton">Update</button>
+
+  <p id="output">Output will be shown here.</p>
+
+  <script>
+    // Function to get input value and show output
+    function showOutput() {
+      // Input element ko dhoondhna
+      const input = document.getElementById("inputValue").value;
+
+      // Output element mein value set karna
+      document.getElementById("output").textContent = "You entered: " + input;
+    }
+
+    // Button pe click event listener add karna
+    document.getElementById("updateButton").addEventListener("click", showOutput);
+  </script>
+</body>
+</html>

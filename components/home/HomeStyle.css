@@ -1,0 +1,61 @@
+*{
+    margin: 0vw;
+    height: 0vw;
+
+}
+
+.bodyy{
+    background: linear-gradient(to top right, lightblue, white);
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttons{
+    display: flex;
+    position: relative;
+    width: 50vw;
+   left: 8vw;
+   top: 10vh;
+
+}
+
+.shop{
+    position: relative;
+    left: 2vw;
+}
+
+.nav{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    
+}
+
+.home{
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    
+}
+.homeImage{
+    height: 45vh;
+    position: relative;
+    border-radius:5vw ;
+}
+.container{
+    position: relative;
+    display: flex;
+    top: 30vh;
+    width: 100vw;
+    justify-content: space-around;
+    
+    
+}
+
+.side1{
+    font-size: 70px;
+    width: 28vw;
+    font-weight: 600;
+}

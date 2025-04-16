@@ -1,0 +1,15 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.btn{
+   font-size: 20px;
+   width: 12vw;
+   height: 8vh;
+   border-radius: 2vw;
+   font-weight: bolder;
+   background-color: white;
+}
+
+

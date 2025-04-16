@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.container {
+    text-align: center;
+    
+}
+.navBar{
+    position: relative;
+    bottom: 17vh;
+     display: flex; 
+     height: 0vh;
+     left:84vw;
+     width: 15vw;
+     font-size: 13px;
+     justify-content: space-evenly;
+     color: black;
+}
+.googleLabs,.applogo,.profilelogo{
+    width: 2vw;
+    position: relative;
+    display: flex;
+    border: #dcdcdc;
+   
+    height: 2vw;
+}
+.googleLabs{
+    border-radius: 40px;
+    width:1.5vw ;
+    height: 1.5vw;
+    top: 0.5vh;
+}
+.applogo{
+    width: 1.5vw;
+    height: 1.5vw;
+    top: 0.5vh;
+
+}
+
+.gmail{
+    position: relative;
+    top: 1.7vh;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    
+    position: relative;
+    right: 3vw;
+    
+
+}
+.search-form {
+    position: relative;
+   
+    
+}
+.search-input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.miclogo,.lenslogo{
+    position: relative;
+    width: 2vw;
+    left: 10vw;
+    bottom: 4.3vh;
+}
+.lenslogo{
+    position: relative;
+    right: 4.9vw;
+    width: 1.5vw;
+    bottom: 5vh;
+}
+.buttons {
+    margin-top: 20px;
+    position: relative;
+    right:2vw ;
+    height: 7vh;
+    transition: none;
+}
+.search1{
+    margin: 10px;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    color: black;
+   box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(163, 163, 163, 0.5);
+}
+.search1:hover {
+    box-sizing: border-box;
+    border: 0.5px solid rgba(105, 105, 105, 0.692);
+}
+.bar {
+    margin:10px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(163, 163, 163, 0.5);
+    border: none;
+}
+.bar:hover {
+    box-sizing: border-box;
+    border: 0.5px solid rgba(105, 105, 105, 0.692);
+}
+.text{
+    margin: 10px ;
+    padding: 10px;
+    font-size: 14px;
+    background-color:white;
+    color: black;
+    border: none;
+    position: relative;
+    right: 2vw;
+}
+.foot{
+    position: relative;
+    width: 100vw;
+    top: 14vh;
+    background-color:white;
+    height: 12vh;  
+    
+}
+.text2{
+    color: black;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(36, 36, 36);
+     display: flex;
+    width: 100vw;
+}
+footer{
+        margin-top: 55px;
+        font-size: 15px;
+        color: white;
+        position: relative;
+        right: 35vw;
+}
+.footer-end a{
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+    position: relative;
+    bottom: 4vh;
+}
+.footer-end2{
+    position: relative;
+    left:20.5vw;
+    display:flex;
+    bottom: 6vh;
+    font-size: 15px;
+}
+.Terms,.Settings,.Privacy{
+    position: relative;
+    color: black;
+    left: 65vw;
+    text-decoration: none;
+}
+.Settings{
+    left: 69vw;
+}
+.Terms{
+    left: 67vw;
+}
+#suggestion-list {
+    list-style-type: none;
+   
+    position: absolute;
+    width: 386px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1000;
+    left: 38vw;
+    bottom: -8.1vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#suggestion-list li {
+    box-sizing: border-box;
+    padding: 10px;
+    padding-right: 12vw;
+    cursor: pointer;
+
+    position: relative;
+    right: 1vw;
+   
+}
+
+#suggestion-list li:hover {
+    background-color: #f0f0f0;
+}
+.hidden{
+    display: none;
+}
+
+.classGoogle{
+    display: none;
+}
