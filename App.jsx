@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Condition from './components/tasks/condition';
+import List from './components/tasks/list';
 
 
 
@@ -9,7 +9,7 @@ const App = () => {
   
   return (
     <div>
-       <Condition/>
+     <List/>
       
     </div>
   )
