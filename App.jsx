@@ -1,7 +1,7 @@
 
 import React from 'react';
 import List from './components/tasks/list';
-
+import Form from './components/tasks/form';
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
   
   return (
     <div>
-     <List/>
+    <Form/>
       
     </div>
   )
