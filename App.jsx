@@ -1,15 +1,13 @@
 
 import React from 'react';
-
-
-import UseEffectTask from './components/tasks/UseEffectTask'; 
+import Task from './components/tasks/TaskUseEffect2';
 const App = () => {
   
   
   return (
     <div>
-    
-     < UseEffectTask/>
+    <Task/>
+     
     </div>
   )
 }
