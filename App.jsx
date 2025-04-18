@@ -1,16 +1,15 @@
 
 import React from 'react';
-import List from './components/tasks/list';
-import Form from './components/tasks/form';
 
 
+import UseEffectTask from './components/tasks/UseEffectTask'; 
 const App = () => {
   
   
   return (
     <div>
-    <Form/>
-      
+    
+     < UseEffectTask/>
     </div>
   )
 }
