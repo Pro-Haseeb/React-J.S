@@ -1,7 +1,7 @@
 
 import React , {useState , useEffect} from 'react';
 
-
+// import List from './list'
 
 const UseEffectTask = () => {
   
@@ -24,6 +24,7 @@ useEffect(()=>{
 
   return (
     <div>
+     
    <h2>X : {mouse.x}</h2>
   <h2>Y : {mouse.y}</h2>
     </div>

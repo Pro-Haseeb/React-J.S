@@ -1,9 +1,7 @@
 
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-
-
-
+// import UseEffectTask from './UseEffectTask';
 const Task = () => {
   const [reSize, setSize]= useState( {x : 0, y : 0});
 
@@ -24,6 +22,7 @@ const Task = () => {
   
   return (
     <div>
+      
     <h2>width {reSize.x}</h2>
     <h2>height {reSize.y}</h2>
      
