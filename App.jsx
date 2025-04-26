@@ -1,6 +1,6 @@
 
 import React , {useRef, useState} from 'react';
-import UseRefernce from './components/tasks/useRefernce';
+import Routing from './components/tasks/routing';
 const App = ()=>{
   
   
@@ -9,8 +9,8 @@ const App = ()=>{
   return (
     
     <>
+     <Routing/>
      
-     <UseRefernce/>
     </>
     
     
