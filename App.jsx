@@ -1,26 +1,21 @@
 
-import React, { useState } from 'react';
-import counterContext from './context/context';
-import Task from './components/tasks/TaskUseEffect2';
-const App = () => {
-  const [counterr, setCount] = useState(0);
+import React , {useRef, useState} from 'react';
+import UseRefernce from './components/tasks/useRefernce';
+const App = ()=>{
   
+  
+   
   
   return (
     
-    <div>
-    <Task/>
-    
+    <>
      
-    </div>
+     <UseRefernce/>
+    </>
+    
     
   )
 }
 
 export default App;
 
-// App 
-//  TaskUseEffext2   
-//          UseEffectTask   
-//                    List
-//                       Button

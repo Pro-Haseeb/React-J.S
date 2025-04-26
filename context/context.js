@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
 
-const counterContext = createContext(0);
+const ToggleContext = createContext(0);
 
-export default counterContext;
+export default ToggleContext;
